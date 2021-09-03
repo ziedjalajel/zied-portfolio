@@ -369,7 +369,7 @@ ul#nav li.current a {
   -webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  width: 80%;
+  width: 85%;
   -moz-animation: illustrator 2s ease;
   -webkit-animation: illustrator 2s ease;
 }
@@ -383,6 +383,11 @@ ul#nav li.current a {
   -moz-animation: css 2s ease;
   -webkit-animation: css 2s ease;
 }
+.cssA {
+  width: 85%;
+  -moz-animation: cssA 2s ease;
+  -webkit-animation: cssA 2s ease;
+}
 .html5 {
   width: 77%;
   -moz-animation: html5 2s ease;
@@ -394,7 +399,7 @@ ul#nav li.current a {
   -webkit-animation: jquery 2s ease;
 }
 .express {
-  width: 88%;
+  width: 80%;
   -moz-animation: express 2s ease;
   -webkit-animation: express 2s ease;
 }
@@ -412,7 +417,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 80%;
+    width: 85%;
   }
 }
 @-moz-keyframes wordpress {
@@ -429,6 +434,14 @@ ul#nav li.current a {
   }
   100% {
     width: 90%;
+  }
+}
+@-moz-keyframes cssA {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 85%;
   }
 }
 @-moz-keyframes html5 {
@@ -452,7 +465,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 88%;
+    width: 80%;
   }
 }
 
@@ -469,7 +482,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 80%;
+    width: 85%;
   }
 }
 @-webkit-keyframes wordpress {
@@ -486,6 +499,14 @@ ul#nav li.current a {
   }
   100% {
     width: 90%;
+  }
+}
+@-webkit-keyframes cssA {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 85%;
   }
 }
 @-webkit-keyframes html5 {
@@ -509,7 +530,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 88%;
+    width: 80%;
   }
 }
 
