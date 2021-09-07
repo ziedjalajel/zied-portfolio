@@ -323,7 +323,7 @@ ul#nav li.current a {
 /*	Skill Bars
 /*----------------------------------------------*/
 .bars {
-  width: 95%;
+  width: 130%;
   float: left;
   padding: 0;
   text-align: left;
@@ -338,9 +338,14 @@ ul#nav li.current a {
 }
 .bars li {
   position: relative;
-  margin-bottom: 60px;
-  height: 42px;
+  margin-bottom: 80px;
+  height: 50px;
+  width: 120px;
   border-radius: 3px;
+}
+.reactli {
+  height: 500px;
+  width: 250px;
 }
 .bars li em {
   font: 15px "opensans-bold", sans-serif;
@@ -350,6 +355,7 @@ ul#nav li.current a {
   font-weight: normal;
   position: relative;
   top: -36px;
+  padding-bottom: 15px;
 }
 .bar-expand {
   position: absolute;
@@ -366,39 +372,46 @@ ul#nav li.current a {
 }
 
 .photoshop {
-  width: 50%;
-  height: 20%;
+  height: 120%;
 }
 .jsimage {
   height: 140%;
-  width: 100%;
+  width: 180%;
+}
+.jsimageredux {
+  width: 200%;
+}
+.jsimagereact {
+  height: auto;
+  width: 550px;
 }
 .react {
-  height: 20%;
+  height: 120%;
+  width: 180px;
 }
 .illustrator {
-  width: 85%;
+  /* width: 85%; */
 }
 .wordpress {
-  width: 70%;
+  /* width: 70%; */
 }
 .css {
-  width: 90%;
+  /* width: 140%; */
 }
 .cssA {
-  width: 85%;
+  /* width: 85%; */
 }
 .html5 {
-  width: 77%;
+  /* width: 77%; */
 }
 .jquery {
-  width: 70%;
+  /* width: 70%; */
 }
 .express {
-  width: 80%;
+  /* width: 80%; */
 }
 
-@-moz-keyframes photoshop {
+/* @-moz-keyframes photoshop {
   0% {
     width: 0px;
   }
@@ -526,7 +539,7 @@ ul#nav li.current a {
   100% {
     width: 80%;
   }
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
